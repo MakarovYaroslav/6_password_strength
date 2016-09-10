@@ -23,4 +23,4 @@ def get_password_strength(password):
 
 
 if __name__ == '__main__':
-    print('Сложность пароля = %s' % get_password_strength('dddd3Ddd##dddddd'))
+    print('Сложность пароля = %s' % get_password_strength('abcd3Def##abcdedf'))
