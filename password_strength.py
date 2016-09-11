@@ -1,3 +1,4 @@
+import getpass
 import re
 
 
@@ -23,5 +24,5 @@ def get_password_strength(password):
 
 
 if __name__ == '__main__':
-    typed_password = input('Введите пароль для проверки:')
+    typed_password = getpass.getpass()
     print('Сложность пароля = %s' % get_password_strength(typed_password))
